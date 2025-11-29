@@ -1,16 +1,16 @@
 # Shaadi.com Data Scientist interview task (Customer Behavior Analytics for Product Adoption)
 
-Hello, I am Janavi Vishwakarma, and here's my understanding of the datasets provided, the problem statement, and the technique or step-by-step procedure I used to obtain the desired output.
+## Hello, I am Janavi Vishwakarma, and here's my understanding of the datasets provided, the problem statement, and the technique or step-by-step procedure I used to obtain the desired output.
 
 So, for the given problem statement, two datasets were provided to me:
 
-1. Dataset.txt:
+### 1. Dataset.txt:
 It's a text data file with customer records, which consists of 101180 rows and 24 columns.
 It's last column/variable/feature is 'C' (which tells whether a customer purchased a specific product or not), which is the "target column', and is fully or slightly dependent on the other 23 columns.
 The remaining 23 columns are independent features that provide relevant information about the customers, like their past purchases, etc.
 This dataset is basically provided for model training purpose.
 
-2. Dataset_test.txt:
+### 2. Dataset_test.txt:
 This dataset, too, has the same features/columns (with different customer records), but the only difference here is it does not consist of the target column 'C'.
 This dataset is provided for testing purpose, and here, for every row or record, the value of 'C' needs to be predicted (i.e., whether the customer is likely to purchase a specific product or not).
 It has 19913 records and 23 columns.
@@ -18,7 +18,7 @@ It has 19913 records and 23 columns.
 Now, here, we need to classify whether the customer is likely to purchase an item or not; hence, it's a "classification problem", which comes under supervised Machine Learning. (Hence, the training data is provided with the target column 'C').
 Here, we can use ML classification algorithms like Logistic regx., Decision trees, Random forest, XGBoost, CatBoost etc.
 
-So now, we know how to deal with this problem statement; let's start with it. (I'm using Python as the programming language.)
+### So now, we know how to deal with this problem statement; let's start with it. (I'm using Python as the programming language.)
 
 -> 1st we'll import all the required Python modules. (From pandas, matplotlib to sklearn, catboost, etc.)
 
@@ -70,5 +70,4 @@ So now, we know how to deal with this problem statement; let's start with it. (I
 
 So, this is how I understood the problem statement, analyzed how to proceed with solving it, solved it programmatically step-by-step, and obtained the required outputs!
 
-THANK YOU!!
-
+#### THANK YOU!!
